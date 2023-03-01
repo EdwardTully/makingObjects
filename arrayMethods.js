@@ -6,7 +6,7 @@ let randNums =[]
 
  makeRandArr=()=>{
 
-     for (i=0; i < 50; i ++){
+     for (i=0; i < 500; i ++){
         let num = Math.floor(Math.random() * 5000)+500
         randNums.push(num)
         }
